@@ -3,7 +3,7 @@ A shiny module of Ace editor for real-time debug
 
 ### Introduction
 
-In debugging a shiny app, it would be very useful to check the value of an input or reactive object while the app is runing. By loading this `shinyAce`-based shiny module, it's easy to perform this task in read-time. This shiny modlule provide an Ace editor interface and evaluate any code input in shiny environment and displace output in a `verbatimTextOutput()`. 
+When debugging a shiny app, it would be very useful to check the value of an input or reactive object while the app is runing. By loading this `shinyAce`-based shiny module, it's easy to perform this task in read-time. This shiny modlule provide an Ace editor interface and evaluate any code input in shiny environment and displace output in a `verbatimTextOutput()`. 
 
 
 ### Pre-request
