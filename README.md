@@ -45,6 +45,6 @@ install.package('formatR')
   )
   ```
 
-4. Run app and input code you want to run in the Ace editor
+4. Run app and input code you want to run in the Ace editor. Press `Ctrl/CMD-Shift-Enter` to evaluate all input or press `Ctrl/CMD-Enter` to evaluate current line or selected code.
 
 
