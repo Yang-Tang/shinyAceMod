@@ -9,6 +9,10 @@ server <- function(input, output, session) {
 }
 
 ui <- fluidPage(
+  
+  actionButton('button', 'Click!'),
+  
+  hr(),
 
   shinyAceModUI('test')
 

@@ -3,7 +3,7 @@ A shiny module of Ace editor for real-time debug
 
 ### Introduction
 
-When debugging a shiny app, it would be very useful to check the value of an input or reactive object while the app is runing. By loading this `shinyAce`-based shiny module, it's easy to perform this task in read-time. This shiny modlule provide an Ace editor interface and evaluate any code input in shiny environment and displace output in a `verbatimTextOutput()`. 
+When debugging a shiny app, it would be very useful to check the value of an input or reactive object while the app is runing. By loading this `shinyAce`-based shiny module, it's easy to perform this task in read-time. This shiny modlule provide an Ace editor interface that can evaluate user input code in shiny environment and displace output in a `verbatimTextOutput()`. 
 
 
 ### Pre-request
@@ -11,7 +11,8 @@ When debugging a shiny app, it would be very useful to check the value of an inp
 This shiny module requires following packages. Please make sure they are installed.
 
 ```r
-install.package('shinyAce')
+# need dev version of shinyAce
+devtools::install_github('trestletech/shinyAce')
 install.package('pryr')
 install.package('formatR')
 ```
@@ -46,5 +47,7 @@ install.package('formatR')
   ```
 
 4. Run app and input code you want to run in the Ace editor. Press `Ctrl/CMD-Shift-Enter` to evaluate all input or press `Ctrl/CMD-Enter` to evaluate current line or selected code.
+
+![alt text](demo.gif)
 
 
